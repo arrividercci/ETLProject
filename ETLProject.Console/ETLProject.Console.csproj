@@ -7,4 +7,18 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ETLProject.Core\ETLProject.Core.csproj" />
+    <ProjectReference Include="..\ETLProject.Data\ETLProject.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="duplicate.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="sample-cab-data.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

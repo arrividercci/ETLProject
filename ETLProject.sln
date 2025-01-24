@@ -1,13 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35506.116 d17.12
+VisualStudioVersion = 17.12.35506.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETLProject.Console", "ETLProject.Console\ETLProject.Console.csproj", "{67E1B68E-DB32-4327-9231-D99BA08A248A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETLProject.Core", "ETLProject.Core\ETLProject.Core.csproj", "{6B295145-A7CE-425D-89C8-D15711A8A922}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETLProject.Infrastructure", "ETLProject.Infrastructure\ETLProject.Infrastructure.csproj", "{5A8104AB-62F8-4715-B220-ABC5821B0D9A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETLProject.Data", "ETLProject.Data\ETLProject.Data.csproj", "{597F7D1A-40A8-4239-AE91-1E1D1E43567F}"
 EndProject
@@ -25,10 +23,6 @@ Global
 		{6B295145-A7CE-425D-89C8-D15711A8A922}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B295145-A7CE-425D-89C8-D15711A8A922}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B295145-A7CE-425D-89C8-D15711A8A922}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5A8104AB-62F8-4715-B220-ABC5821B0D9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5A8104AB-62F8-4715-B220-ABC5821B0D9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5A8104AB-62F8-4715-B220-ABC5821B0D9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5A8104AB-62F8-4715-B220-ABC5821B0D9A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{597F7D1A-40A8-4239-AE91-1E1D1E43567F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{597F7D1A-40A8-4239-AE91-1E1D1E43567F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{597F7D1A-40A8-4239-AE91-1E1D1E43567F}.Release|Any CPU.ActiveCfg = Release|Any CPU
